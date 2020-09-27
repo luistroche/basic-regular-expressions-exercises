@@ -1,1 +1,0 @@
-// First created script for regular expression exercises
