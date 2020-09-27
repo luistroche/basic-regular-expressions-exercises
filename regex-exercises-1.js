@@ -40,3 +40,14 @@ let result4 = fccRegex.test(myString2);
 
 console.log(`${result4} <-- result4`);
 
+
+// #5
+// Extract Matches string.match();
+// Apply the .match() method to extract the word coding.
+
+let extractStr = "Extract the word 'coding' from the string";
+let codingRegex = /coding/;
+let result5 = extractStr.match(codingRegex);
+
+console.log(`${result5} <-- result5`);
+
