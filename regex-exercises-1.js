@@ -51,3 +51,12 @@ let result5 = extractStr.match(codingRegex);
 
 console.log(`${result5} <-- result5`);
 
+// #6
+// Global flag
+// You can have Multiple flags on your regex like /search/gi
+
+let twinkleStar = "Twinkle, twinkle, little star";
+let starRegex = /twinkle/gi;
+let result6 = twinkleStar.match(starRegex);
+
+console.log(`${result6} <--Result 6`);
