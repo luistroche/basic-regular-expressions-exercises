@@ -60,3 +60,13 @@ let starRegex = /twinkle/gi;
 let result6 = twinkleStar.match(starRegex);
 
 console.log(`${result6} <--Result 6`);
+
+// #7
+// wildcard Period
+// Complete the regex unRegex so that it matches the strings "run", "sun", "fun", "pun", "nun", and "bun". Your regex should use the wildcard character.
+
+let temon = "lets have fun with regular expressions lets run under the sun and eat hotdog on a bun";
+let regex7 = /.un/gi;
+let result7 = regex7.test(temon);
+
+console.log(`${result7}  <-- result7`);
