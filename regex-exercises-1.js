@@ -30,3 +30,13 @@ let resultPet = petRegex.test(petString);
 console.log(`${resultPet} <-- resultPet`);
 
 
+// #4
+// Ignore case matching with flag /i
+// Write a regex fccRegex to match "freeCodeCamp", no matter its case. Your regex should not match any abbreviations or variations with spaces.
+
+let myString2 = "FreeCodeCamp";
+let fccRegex = /freecodecamp/i;
+let result4 = fccRegex.test(myString2);
+
+console.log(`${result4} <-- result4`);
+
