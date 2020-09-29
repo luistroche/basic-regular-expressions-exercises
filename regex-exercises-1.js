@@ -117,4 +117,14 @@ let quoteSample3 = "3 blind mice.";
 let myRegex11 = /[^aeiou0-9]/gi;
 let result11 = quoteSample.match(myRegex11);
 
-console.log(`${result11.length}`);
+console.log(`${result11.length} <--result11.lenght`);
+
+// #12
+// match double characters or numbers  with + sign
+// You want to find matches when the letter s occurs one or more times in "Mississippi". Write a regex that uses the + sign.
+
+let difficultSpelling = "Mississippi";
+let myRegex12 = /s+/gi; //consider regex whithin brackets will give as result single output.
+let result12 = difficultSpelling.match(myRegex12);
+
+console.log(`${result12} <--result12`);
