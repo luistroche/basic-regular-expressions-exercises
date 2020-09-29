@@ -59,7 +59,7 @@ let twinkleStar = "Twinkle, twinkle, little star";
 let starRegex = /twinkle/gi;
 let result6 = twinkleStar.match(starRegex);
 
-console.log(`${result6} <--Result 6`);
+console.log(`${result6} <--Result6`);
 
 // #7
 // wildcard Period
@@ -82,5 +82,17 @@ let quoteSample = "Beware of bugs in the above code; I have only proved it corre
 let vowelRegex = /[aeiou]/gi;
 let result8 = quoteSample.match(vowelRegex);
 
-console.log(result8);
+console.log(`${result8} <--result8`);
 
+// #9
+// match letters of the Alphabet
+
+// Match all the letters in the string quoteSample
+// Note: Be sure to match both upper-lowercase letters
+
+
+let quoteSample1 = "The quick brown fox jumps over the lazy dog.";
+let alphabetRegex = /[a-z]/gi;
+let result9 = quoteSample1.match(alphabetRegex);
+
+console.log(`${result9} <--result9`);
