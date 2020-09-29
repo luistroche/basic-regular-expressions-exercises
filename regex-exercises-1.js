@@ -86,7 +86,6 @@ console.log(`${result8} <--result8`);
 
 // #9
 // match letters of the Alphabet
-
 // Match all the letters in the string quoteSample
 // Note: Be sure to match both upper-lowercase letters
 
@@ -96,3 +95,14 @@ let alphabetRegex = /[a-z]/gi;
 let result9 = quoteSample1.match(alphabetRegex);
 
 console.log(`${result9} <--result9`);
+
+// #10
+// Match letters and numbers to the regex
+// Create a single regex that matches a range of letters between h and s, and a range of numbers between 2 and 6. 
+// Remember to include the appopriate flas in the regex.
+
+let quoteSample2 = 'Blueberry 3.14159263s are delicious.';
+let myRegex10 = /[h-s2-6]/gi;
+let result10 = quoteSample.match(myRegex10);
+
+console.log(`${result10} <--result10`);
