@@ -106,3 +106,15 @@ let myRegex10 = /[h-s2-6]/gi;
 let result10 = quoteSample.match(myRegex10);
 
 console.log(`${result10} <--result10`);
+
+
+// #11
+// negate characters with ^ character
+// ToDo create a single regex that matches all characters that are not a number or a vowel.
+// Remember to include the appropriate flags in the regex.
+
+let quoteSample3 = "3 blind mice.";
+let myRegex11 = /[^aeiou0-9]/gi;
+let result11 = quoteSample.match(myRegex11);
+
+console.log(`${result11.length}`);
