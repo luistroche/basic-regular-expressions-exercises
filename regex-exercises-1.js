@@ -107,7 +107,8 @@ let result10 = quoteSample.match(myRegex10);
 
 console.log(`${result10} <--result10`);
 
-
+;
+ 
 // #11
 // negate characters with ^ character
 // ToDo create a single regex that matches all characters that are not a number or a vowel.
@@ -128,3 +129,7 @@ let myRegex12 = /s+/gi; //consider regex whithin brackets will give as result si
 let result12 = difficultSpelling.match(myRegex12);
 
 console.log(`${result12} <--result12`);
+
+// #13
+
+     
