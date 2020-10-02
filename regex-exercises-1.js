@@ -177,3 +177,13 @@ let calRegex = /^Cal/; // Change this line
 let result16 = calRegex.test(rickyAndCal);
 
 console.log(`${result16} <--result16`);
+
+// #17
+//  Match the end of a string
+//  Use the anchor character ($) to match the string "caboose" at the end of the string caboose.
+
+let cabooseString = "The last car on a train is the caboose";
+let lastRegex = /caboose$/g;
+let result17 = cabooseString.match(lastRegex);
+
+console.log(`${result17} <--result17`);
