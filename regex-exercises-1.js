@@ -166,3 +166,14 @@ let theFinderRegex = /c+/gi;
 let result15 = findTheC.match(theFinderRegex);
 
 console.log(`${result15} <--result15`);
+
+
+// #16
+// Match beginning of a string pattern
+// Use the caret character in a regex to find "Cal" only in the beginning of the string rickyAndCal.
+
+let rickyAndCal = "Cal and Ricky both like racing.";
+let calRegex = /^Cal/; // Change this line
+let result16 = calRegex.test(rickyAndCal);
+
+console.log(`${result16} <--result16`);
