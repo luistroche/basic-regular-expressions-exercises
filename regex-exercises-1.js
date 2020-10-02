@@ -145,10 +145,3 @@ let result13 = chewieQuote.match(chewieRegex);
 
 console.log(`${result13} <--result13`);
 console.log(result13.length);
-
-
-Mr. Schafer
-Mr Smith 
-Mr. T 
-
-     
