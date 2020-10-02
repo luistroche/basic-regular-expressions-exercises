@@ -145,3 +145,14 @@ let result13 = chewieQuote.match(chewieRegex);
 
 console.log(`${result13} <--result13`);
 console.log(result13.length);
+
+
+// #14
+// lazy Matching
+// Fix the regex /<.*>/ to return the HTML tag <h1> and not the text 
+// "<h1>Winter is coming</h1>". Remember the wildcard . in a 
+// regular expression matches any character.
+
+let someText = "<h1>Winter is coming</h1>";
+let regex14 = /<.*?1>/;
+let result14 = sometext.match(`${regex14} <--result14`);
