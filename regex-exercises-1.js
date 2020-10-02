@@ -155,4 +155,14 @@ console.log(result13.length);
 
 let someText = "<h1>Winter is coming</h1>";
 let regex14 = /<.*?1>/;
-let result14 = sometext.match(`${regex14} <--result14`);
+let result14 = someText.match(`${regex14} <--result14`);
+
+
+// #15
+// Find all the "c"
+
+let findTheC = "P6P2P7P4P5CCCCCP3P1";
+let theFinderRegex = /c+/gi;
+let result15 = findTheC.match(theFinderRegex);
+
+console.log(`${result15} <--result15`);
