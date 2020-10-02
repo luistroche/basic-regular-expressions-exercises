@@ -187,3 +187,15 @@ let lastRegex = /caboose$/g;
 let result17 = cabooseString.match(lastRegex);
 
 console.log(`${result17} <--result17`);
+
+// #18
+// Match all letters and numbers with shorthand \w 
+// Use the shorthand character class \w to count the number of alphanumeric characters in various quotes and strings.
+
+let quoteSample18 = "The five boxing wizards jump quickly.";
+let alphabetRegexV2 = /\w/g; // Change this line
+let result18 = quoteSample18.match(alphabetRegexV2).length;
+
+console.log(result18);
+
+
